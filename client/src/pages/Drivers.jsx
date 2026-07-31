@@ -67,7 +67,7 @@ export default function Drivers() {
           </>
         }
         highlight="Driving with us"
-        image="/images/drvier-page-hero-2.webp"
+        image="images/drvier-page-hero-2.webp"
       />
 
       <PageIntro
@@ -82,7 +82,7 @@ export default function Drivers() {
         title="Drive Beyond Limits with BlinkRide"
         heading="Flexible Driving Opportunities with Unlimited Potential"
         paragraph="Join BlinkRide and become part of a professional driver network built for success. Earn through rides, food delivery, parcel services, and airport transfers while enjoying flexible schedules, transparent earnings, reliable support, and advanced technology designed to help drivers grow confidently and maximize daily earning opportunities."
-        image="/images/felixible.webp"
+        image="images/felixible.webp"
         imageAlt="BlinkRide driver in a vehicle"
       />
 
@@ -93,7 +93,7 @@ export default function Drivers() {
         title="Round Trip Opportunities"
         heading="Double the Journey, Double the Earnings"
         paragraph="Profitable round-trip bookings with scheduled pickups, optimized routes, and professional customer management."
-        image="/images/driver-page-round-trip.webp"
+        image="images/driver-page-round-trip.webp"
         imageAlt="Round trip opportunities for BlinkRide drivers"
       />
 
@@ -102,7 +102,7 @@ export default function Drivers() {
         title="Flexible Hourly Ride Opportunities"
         heading="Your Schedule, Your Bookings"
         paragraph="Multiple-stop bookings with extended reservations, flexible scheduling, and transparent trip management."
-        image="/images/drvie-page-flexable-hourly-trip.webp"
+        image="images/drvie-page-flexable-hourly-trip.webp"
         imageAlt="Flexible hourly ride opportunities for BlinkRide drivers"
       />
 
@@ -111,7 +111,7 @@ export default function Drivers() {
         title="Airport Pickup & Drop Opportunities"
         heading="Professional Airport Rides That Reward Drivers"
         paragraph="Benefit from flight tracking, scheduled bookings, higher-value trips, and reliable income with every airport transfer."
-        image="/images/AIRPORT-PIC-UP-AND-DROP-OFF.webp"
+        image="images/AIRPORT-PIC-UP-AND-DROP-OFF.webp"
         imageAlt="Airport pickup and drop off opportunities for BlinkRide drivers"
       />
 
@@ -124,7 +124,7 @@ export default function Drivers() {
           { title: 'Self Training', text: 'Complete comprehensive training on safety, navigation, and customer service.' },
           { title: 'Drive', text: 'Start accepting rides once your training is complete.' }
         ]}
-        image="/images/driver-app-mobile.webp"
+        image="images/driver-app-mobile.webp"
         imageAlt="BlinkRide driver app"
       />
 
@@ -133,7 +133,7 @@ export default function Drivers() {
           <div className="driver-benefits__layout">
             <div className="driver-benefits__intro">
               <div className="driver-benefits__visual">
-                <img src="/images/Driver-section.webp" alt="Professional BlinkRide driver" />
+                <img src="images/Driver-section.webp" alt="Professional BlinkRide driver" />
               </div>
               <h2 className="driver-benefits__heading">Transparent Pricing for Peace of Mind</h2>
             </div>

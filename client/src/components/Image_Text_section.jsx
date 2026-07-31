@@ -5,7 +5,7 @@ export default function ImageTextSection({
   title = 'Your Time. Your Ride. Your Schedule.',
   heading = 'Flexible Hourly Transportation Services',
   paragraph = `BlinkRide's hourly ride services provide complete travel flexibility for meetings, errands, shopping, events, and multiple destinations throughout the day. Customers enjoy professional drivers, comfortable vehicles, and personalized transportation experiences without repeatedly booking separate rides. Our flexible hourly services are designed to save time while delivering reliable, secure, smooth, and convenient travel experiences every hour.`,
-  image = '/images/hourly-car-image.webp',
+  image = 'images/hourly-car-image.webp',
   imageAlt = 'Hourly ride transportation service',
   bullets,
   tone = 'light',

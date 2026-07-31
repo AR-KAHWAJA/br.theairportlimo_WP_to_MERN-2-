@@ -5,10 +5,10 @@ export const siteConfig = {
   brand: {
     name: 'BlinkRide',
     // Logo shown in the header and footer.
-    logo: '/images/LOGO-BR-WEBSITE-scaled.webp',
+    logo: 'images/LOGO-BR-WEBSITE-scaled.webp',
     logoAlt: 'BlinkRide',
     // Browser tab icon. Point this at a new file in client/public to change it.
-    favicon: '/images/LOGO-BR-WEBSITE-scaled.webp'
+    favicon: 'images/LOGO-BR-WEBSITE-scaled.webp'
   },
 
   contact: {
@@ -16,7 +16,7 @@ export const siteConfig = {
     // Extra recipients cc'd on every mailto link, e.g. ['sales@blinkride.com', 'ops@blinkride.com'].
     emailCc: [],
     phoneDisplay: '(987) 654-3210',
-    // Used for tel: and WhatsApp links — keep in E.164 format (+countrycode...).
+    // Used for tel: and WhatsApp links; keep in E.164 format (+countrycode...).
     phoneDial: '+19876543210',
     address: '123 Transport Ave, Citytown, Countryland',
     hours: 'Mon-Fri 9:00AM - 5:00PM'
@@ -40,7 +40,7 @@ export const siteConfig = {
   }
 }
 
-// ---- Helpers built from the config above — components should use these instead of hardcoding links ----
+// Helpers built from the config above. Components should use these instead of hardcoding links.
 
 export function getMailtoLink({ subject, body } = {}) {
   const params = new URLSearchParams()
@@ -74,8 +74,8 @@ export function detectDevice() {
   return 'desktop'
 }
 
-// app: 'customer' | 'driver' — returns the App Store link on iOS, the Play Store link on Android,
-// and falls back to the Play Store link on desktop (it's viewable in any browser).
+// app: 'customer' | 'driver' - returns the App Store link on iOS, the Play Store link on Android,
+// and falls back to the Play Store link on desktop because it is viewable in any browser.
 export function getAppLink(app) {
   const links = siteConfig.apps[app]
   const device = detectDevice()

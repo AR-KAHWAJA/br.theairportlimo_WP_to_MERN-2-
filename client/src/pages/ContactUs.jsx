@@ -17,7 +17,7 @@ export default function ContactUs() {
           </>
         }
         highlight="We're Here to Help"
-        image="/images/contact-us-page-hero-section-1.webp"
+        image="images/contact-us-page-hero-section-1.webp"
       />
 
       <ContactDetailsMap />
@@ -36,7 +36,7 @@ export default function ContactUs() {
             <ContactForm />
           </div>
           <div className="contact-image">
-            <img src="/images/Contact-Us-page-1.webp" alt="BlinkRide support" />
+            <img src="images/Contact-Us-page-1.webp" alt="BlinkRide support" />
           </div>
         </div>
       </section>

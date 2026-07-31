@@ -2,17 +2,17 @@ import './OfferingsSection.css'
 
 const CARDS = [
   {
-    image: '/images/Family_Trips_HAPPY.webp',
+    image: 'images/Family_Trips_HAPPY.webp',
     title: 'Family Rides',
     text: 'Enjoy a comfortable and spacious ride designed for families, creating a pleasant journey for passengers of every age.'
   },
   {
-    image: '/images/GROUP_TRAVEL.webp',
+    image: 'images/GROUP_TRAVEL.webp',
     title: 'Group Outings',
     text: 'Make every group outing memorable with spacious and dependable transport for friends, families, and larger gatherings.'
   },
   {
-    image: '/images/Bussiness-Class-Ride.webp',
+    image: 'images/Bussiness-Class-Ride.webp',
     title: 'Corporate Transport',
     text: 'Ensure timely arrivals with professional transport solutions designed for meetings, events, and corporate travel.'
   }

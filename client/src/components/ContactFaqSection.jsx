@@ -38,7 +38,7 @@ export default function ContactFaqSection({ id }) {
 
       <div className="cus-container cfaq-shell">
         <div className="cfaq-visual">
-          <img src="/images/get_app_mobile_screen_1.webp" alt="Customer using the BlinkRide app" />
+          <img src="images/get_app_mobile_screen_1.webp" alt="Customer using the BlinkRide app" />
           <div className="cfaq-visual-note">
             <strong>Everything you need, in one app.</strong>
             <span>Book rides, manage trips, and access support with ease.</span>

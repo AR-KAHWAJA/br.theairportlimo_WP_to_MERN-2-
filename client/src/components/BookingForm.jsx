@@ -290,7 +290,7 @@ export default function BookingForm() {
             className="reservation-form-side"
             style={{
               backgroundImage:
-                'linear-gradient(rgba(67, 220, 214, 0.04), rgba(67, 220, 214, 0.04)), url(/images/try-image.webp)'
+                'linear-gradient(rgba(67, 220, 214, 0.04), rgba(67, 220, 214, 0.04)), url(images/try-image.webp)'
             }}
           >
             <div className="form-content">

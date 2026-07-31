@@ -11,32 +11,32 @@ import './Home.css'
 const SERVICES = [
   {
     title: 'One-Way Trips',
-    image: '/images/One-Way-trip-image.webp',
+    image: 'images/One-Way-trip-image.webp',
     description: 'Enjoy a smooth and dependable ride to your destination. Perfect for the airport transfers, business travel, or daily trips. Travel comfortably with professional service from pickup to drop-off.'
   },
   {
     title: 'Round Trips',
-    image: '/images/Round-trip-image.webp',
+    image: 'images/Round-trip-image.webp',
     description: 'Book your outgoing and return journey in one simple reservation. Ideal for meetings, events, appointments, and airport travel. Enjoy reliable pickups, flexible scheduling, and a stress-free return.'
   },
   {
     title: 'Hourly Trips',
-    image: '/images/hourly-car-image.webp',
+    image: 'images/hourly-car-image.webp',
     description: 'Keep a premium vehicle and professional driver available by the hour. Perfect for the errands, meetings, shopping, events, or multiple stops. Travel at your own pace with maximum comfort and flexibility.'
   },
   {
     title: 'Airport Pickups',
-    image: '/images/airport-transfer-1-1.webp',
+    image: 'images/airport-transfer-1-1.webp',
     description: 'Choose from economy, premium, or luxury vehicles for your journey. Enjoy timely pickups, professional drivers, and comfortable airport transfers. Travel smoothly from the terminal directly to your destination.'
   },
   {
     title: 'Package',
-    image: '/images/Delivery-parcel.webp',
+    image: 'images/Delivery-parcel.webp',
     description: 'Send your packages safely with dependable and fast delivery service. Every item is handled carefully from collection to final drop-off. Track your delivery and enjoy complete peace of mind.'
   },
   {
     title: 'Food',
-    image: '/images/food-deliver-2.webp',
+    image: 'images/food-deliver-2.webp',
     description: 'Order the fresh meals from your favorite restaurants with ease. Enjoy the quick, reliable delivery while your food stays secure and fresh. Get your order delivered directly to your doorstep on time.'
   }
 ]
@@ -75,7 +75,7 @@ export default function Home() {
           '24/7 emergency support for your safety at every step.'
         ]}
         paragraph="Safety is non-negotiable. Your safety is our top priority — every ride, every time."
-        image="/images/Customer-Security.webp"
+        image="images/Customer-Security.webp"
       >
         <Link to="/get-the-app" className="btn">
           Get the App

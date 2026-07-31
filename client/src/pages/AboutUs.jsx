@@ -12,7 +12,7 @@ export default function AboutUs() {
         className="hero--standard"
         title="Smart Travel Companion at"
         highlight="Your Fingertips"
-        image="/images/about-hero-section-image.webp"
+        image="images/about-hero-section-image.webp"
       />
 
       <IntroAboutUsPage />
@@ -29,7 +29,7 @@ export default function AboutUs() {
           'Provide consistent, high-quality customer experience',
           'Continuously innovate to improve convenience and efficiency'
         ]}
-        image="/images/our-mission.webp"
+        image="images/our-mission.webp"
         imageAlt="Our mission"
       />
 
@@ -45,7 +45,7 @@ export default function AboutUs() {
           'Maintain excellence in service quality and reliability',
           'Build long-term value for customers, partners, and communities'
         ]}
-        image="/images/Globel_3.webp"
+        image="images/Globel_3.webp"
         imageAlt="Our vision for the future"
       />
 
@@ -63,7 +63,7 @@ export default function AboutUs() {
           'Reliable service that you can count on, day or night.',
           'Options for every need: rides, food delivery, and more.'
         ]}
-        image="/images/About-us-3.webp"
+        image="images/About-us-3.webp"
         imageAlt="Why choose BlinkRide"
       />
 

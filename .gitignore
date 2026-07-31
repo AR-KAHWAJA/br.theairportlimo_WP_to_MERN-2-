@@ -1,5 +1,9 @@
 node_modules/
 client/dist/
+.env
+.env.local
+client/.env
+client/.env.local
 server/.env
 *.log
 .DS_Store
@@ -7,5 +11,5 @@ server/.env
 # Local Claude Code settings (machine-specific, not project config)
 .claude/
 
-# Full WordPress site backup — kept locally as a reference, too large for git
+# Full WordPress site backup kept locally as a reference, too large for git
 Wordpress Backup/

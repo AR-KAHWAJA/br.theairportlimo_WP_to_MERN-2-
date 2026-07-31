@@ -17,7 +17,7 @@ export default function Opportunities() {
         <div className="opportunities-grid">
           <article className="opportunity-card opportunity-card--driver">
             <div className="opportunity-card__media">
-              <img src="/images/Driver-section.webp" alt="Professional BlinkRide driver" />
+              <img src="images/Driver-section.webp" alt="Professional BlinkRide driver" />
               <span className="opportunity-card__label">Driver</span>
               <p className="opportunity-card__caption">Drive with flexibility, earn more, and stay in control.</p>
             </div>
@@ -50,7 +50,7 @@ export default function Opportunities() {
 
           <article className="opportunity-card opportunity-card--affiliate">
             <div className="opportunity-card__media">
-              <img src="/images/affialte-imgae.webp" alt="BlinkRide affiliate partnership" />
+              <img src="images/affialte-imgae.webp" alt="BlinkRide affiliate partnership" />
               <span className="opportunity-card__label">Affiliate</span>
               <p className="opportunity-card__caption">
                 Build stronger partnerships and grow your transportation business.

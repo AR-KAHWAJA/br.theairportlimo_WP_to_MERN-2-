@@ -8,37 +8,37 @@ const SLIDES = [
     line1: 'Start Your Journey',
     line2: 'with BlinkRide',
     highlightLine: 1,
-    image: '/images/welcome_image_BR.webp'
+    image: 'images/welcome_image_BR.webp'
   },
   {
     tag: 'Business',
     line1: 'Smart Solutions',
     line2: 'for Business',
-    image: '/images/bussiness-hero-sction-iamge-1.webp'
+    image: 'images/bussiness-hero-sction-iamge-1.webp'
   },
   {
     tag: 'Family',
     line1: 'Safe Rides for',
     line2: 'Your Family',
-    image: '/images/family_gift_ride_iamge__3_-2.webp'
+    image: 'images/family_gift_ride_iamge__3_-2.webp'
   },
   {
     tag: 'Package',
     line1: 'Fast & Reliable',
     line2: 'Deliveries',
-    image: '/images/Parcel-delivery-BR-1.webp'
+    image: 'images/Parcel-delivery-BR-1.webp'
   },
   {
     tag: 'Food',
     line1: 'Groceries at',
     line2: 'Your Doorstep',
-    image: '/images/food-delivery-1.webp'
+    image: 'images/food-delivery-1.webp'
   },
   {
     tag: 'Kids',
     line1: 'Safe Rides',
     line2: 'for Kids',
-    image: '/images/kids-hero-section-iamge-1.webp'
+    image: 'images/kids-hero-section-iamge-1.webp'
   }
 ]
 

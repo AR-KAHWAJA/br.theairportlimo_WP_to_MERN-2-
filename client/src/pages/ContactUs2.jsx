@@ -10,23 +10,23 @@ export default function ContactUs2() {
       <Hero
         title="Discover Seamless Transportation Solutions for Everyone"
         subtitle="Streamlined solutions for every journey you take — your journey starts with reliable transportation options."
-        image="/images/customer-page-hero-section-image.webp"
+        image="images/customer-page-hero-section-image.webp"
       />
 
       <section className="section">
         <div className="container grid grid--3">
           <ServiceCard
-            image="/images/regular_car_iamge-1-1.webp"
+            image="images/regular_car_iamge-1-1.webp"
             title="Ride Services"
             description="On-demand and scheduled rides with verified drivers, wherever you need to go."
           />
           <ServiceCard
-            image="/images/food-delivery-1.webp"
+            image="images/food-delivery-1.webp"
             title="Pizza Delivery"
             description="Fast, reliable food delivery from your favorite local restaurants."
           />
           <ServiceCard
-            image="/images/corporate-transfer.webp"
+            image="images/corporate-transfer.webp"
             title="Corporate Transport Solutions"
             description="Dependable transportation for teams, clients, and business events."
           />
@@ -37,10 +37,10 @@ export default function ContactUs2() {
         tone="accent"
         title="Why Choose Us?"
         features={[
-          { title: 'Verified Drivers', image: '/images/driver-app.webp' },
-          { title: 'Easy Booking', image: '/images/iamge-customer-app-mobile-screen.webp' },
-          { title: 'On-Time Pickup', image: '/images/customer-page-hero-section-image.webp' },
-          { title: 'Comfortable Rides', image: '/images/regular_car_iamge-1-1.webp' }
+          { title: 'Verified Drivers', image: 'images/driver-app.webp' },
+          { title: 'Easy Booking', image: 'images/iamge-customer-app-mobile-screen.webp' },
+          { title: 'On-Time Pickup', image: 'images/customer-page-hero-section-image.webp' },
+          { title: 'Comfortable Rides', image: 'images/regular_car_iamge-1-1.webp' }
         ]}
       />
 

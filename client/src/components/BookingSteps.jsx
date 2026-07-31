@@ -13,7 +13,7 @@ export default function BookingSteps({
   title = 'How to Book a Ride',
   subtitle = 'Book your ride in four simple steps.',
   steps = DEFAULT_STEPS,
-  image = '/images/iamge-customer-app-mobile-screen.webp',
+  image = 'images/iamge-customer-app-mobile-screen.webp',
   imageAlt = 'Book a Ride',
   ctaLabel = 'Get App',
   ctaTo = '/get-the-app'

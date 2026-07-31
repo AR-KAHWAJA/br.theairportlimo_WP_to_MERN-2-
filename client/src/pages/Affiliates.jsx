@@ -7,10 +7,10 @@ import FaqAccordion from '../components/FaqAccordion.jsx'
 import './Affiliates.css'
 
 const GLOBAL_BLOCKS = [
-  '/images/Globel_2.webp',
-  '/images/Globel_3.webp',
-  '/images/Globel_4.webp',
-  '/images/iamge_affilate_3.webp'
+  'images/Globel_2.webp',
+  'images/Globel_3.webp',
+  'images/Globel_4.webp',
+  'images/iamge_affilate_3.webp'
 ]
 
 const FAQS = [
@@ -57,7 +57,7 @@ export default function Affiliates() {
                 </>
               }
               highlight="Affiliate Program"
-              image="/images/affilate-page-hero-section.webp"
+              image="images/affilate-page-hero-section.webp"
             />
 
       <PageIntro
@@ -84,7 +84,7 @@ export default function Affiliates() {
                     deliveries, even in areas without direct BlinkRide operations.
                   </>
                 ]}
-        image="/images/image_affialte s1.webp"
+        image="images/image_affialte s1.webp"
         imageAlt="Global coverage"
       />
 
@@ -99,7 +99,7 @@ export default function Affiliates() {
           'Enhanced customer satisfaction through seamless operations',
           'Dedicated support for affiliates to achieve shared success'
         ]}
-        image="/images/iamge_21-1.webp"
+        image="images/iamge_21-1.webp"
         imageAlt="Deliver exceptional service"
       />
 
@@ -113,7 +113,7 @@ export default function Affiliates() {
           'Real-time ride and delivery tracking',
           'Detailed trip and payment summaries'
         ]}
-        image="/images/iamge_affilate_3.webp"
+        image="images/iamge_affilate_3.webp"
         imageAlt="Trust and accountability at every step"
       />
 
@@ -138,7 +138,7 @@ export default function Affiliates() {
                   </>
                 ]}
          
-        image="/images/iamge_affilate_4.webp"
+        image="images/iamge_affilate_4.webp"
         imageAlt="Expand your business with BlinkRide's global network"
       />
 
@@ -152,7 +152,7 @@ export default function Affiliates() {
           'Automated billing and transparent revenue sharing',
           'Comprehensive reporting and performance analytics'
         ]}
-        image="/images/tools-in-affilates.webp"
+        image="images/tools-in-affilates.webp"
         imageAlt="Advanced tools for fleet management"
       />
 

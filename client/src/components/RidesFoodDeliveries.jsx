@@ -3,19 +3,19 @@ import './RidesFoodDeliveries.css'
 const CARDS = [
   {
     number: '01',
-    image: '/images/customer-page-2.webp',
+    image: 'images/customer-page-2.webp',
     title: 'Customer Ride',
     text: 'Enjoy convenient one-way rides customized for your daily travel needs, with professional drivers, comfortable vehicles, and dependable service.'
   },
   {
     number: '02',
-    image: '/images/food-deliver-2.webp',
+    image: 'images/food-deliver-2.webp',
     title: 'Food Delivery',
     text: 'Get your favorite meals delivered quickly and safely with fresh handling, live tracking, and reliable service from one simple app.'
   },
   {
     number: '03',
-    image: '/images/package-delivery-1.webp',
+    image: 'images/package-delivery-1.webp',
     title: 'Parcel Delivery',
     text: 'Send and receive parcels confidently with secure handling, dependable delivery times, and real-time tracking throughout the journey.'
   }

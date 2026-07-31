@@ -2,17 +2,17 @@ import './BusinessServices.css'
 
 const CARDS = [
   {
-    image: '/images/corporate-transfer.webp',
+    image: 'images/corporate-transfer.webp',
     title: 'Corporate Transfers',
     text: 'Seamless transportation for employees, ensuring they arrive on time. Our dedicated fleet is customized for corporate needs.'
   },
   {
-    image: '/images/Airport-transfer.webp',
+    image: 'images/Airport-transfer.webp',
     title: 'Airport Services',
     text: 'Reliable airport pickups and drop-offs, ensuring a hassle-free travel experience for your team and clients.'
   },
   {
-    image: '/images/special-events.webp',
+    image: 'images/special-events.webp',
     title: 'Special Events',
     text: 'Host events with confidence. Our transport solutions cater to conferences, meetings, and corporate gatherings.'
   }

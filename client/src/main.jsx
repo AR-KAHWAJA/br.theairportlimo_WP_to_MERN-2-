@@ -7,9 +7,11 @@ import './styles/global.css'
 
 applySiteMeta()
 
+const routerBasename = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename || undefined}>
       <App />
     </BrowserRouter>
   </React.StrictMode>

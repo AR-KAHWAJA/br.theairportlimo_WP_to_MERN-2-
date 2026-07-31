@@ -5,7 +5,7 @@ export default function TextImageSection({
   title = 'Round Trips Made Effortless',
   heading = 'Comfortable Rides with Guaranteed Return',
   paragraph = `Enjoy reliable round-trip transportation designed for convenience, comfort, and flexibility. BlinkRide offers scheduled pickups, dependable return rides, professional drivers, and comfortable vehicles for shopping trips, business meetings, family visits, and special occasions. Our round-trip services ensure smooth travel experiences with secure transportation, transparent pricing, and stress-free journeys from beginning to return.`,
-  image = '/images/Round-trip-image.webp',
+  image = 'images/Round-trip-image.webp',
   imageAlt = 'Round Trips',
   bullets,
   tone = 'light',

@@ -19,7 +19,7 @@ const CARDS = [
       'Real-time driver and trip updates',
       'Flexible ride and payment options'
     ],
-    image: '/images/iamge-customer-app-mobile-screen.webp',
+    image: 'images/iamge-customer-app-mobile-screen.webp',
     imageAlt: 'BlinkRide Customer App shown on a smartphone',
     labelTop: { icon: '✓', text: 'Easy booking' },
     labelBottom: { icon: '⌁', text: 'Live tracking' }
@@ -41,7 +41,7 @@ const CARDS = [
       'Simple trip and earnings management',
       'Better control over your workday'
     ],
-    image: '/images/driver-app-mobile.webp',
+    image: 'images/driver-app-mobile.webp',
     imageAlt: 'BlinkRide Driver App shown on a smartphone',
     labelTop: { icon: '✓', text: 'Trip control' },
     labelBottom: { icon: '$', text: 'Track earnings' }

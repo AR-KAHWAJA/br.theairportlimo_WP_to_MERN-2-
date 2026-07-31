@@ -16,7 +16,7 @@ export default function GetTheApp() {
           </>
         }
         highlight="with BlinkRide"
-        image="/images/GET_THE_APP_HERO_IMAGE.webp"
+        image="images/GET_THE_APP_HERO_IMAGE.webp"
       >
         <div className="app-store-buttons">
           <a className="btn btn--dark" href={getAppLink('customer')} target="_blank" rel="noopener noreferrer">

@@ -9,35 +9,35 @@ import './Fleet.css'
 const VEHICLES = [
   {
     title: 'Executive Sedan',
-    image: '/images/Executive_Sedan.webp',
+    image: 'images/Executive_Sedan.webp',
     description:
       'Reliable and comfortable transportation designed for everyday travel. Perfect for city rides, business meetings, airport transfers, and professional commuting with a smooth and efficient travel experience.',
     tags: ['Standard', 'Reliable', 'Secure']
   },
   {
     title: 'Luxury Sedan',
-    image: '/images/Luxury_Sedan.webp',
+    image: 'images/Luxury_Sedan.webp',
     description:
       'Travel in style with our premium luxury sedans, featuring elegant interiors, exceptional comfort, and first-class service. Ideal for executive travel, corporate events, VIP transportation, and special occasions.',
     tags: ['Reliable', 'Luxury', 'Secure']
   },
   {
     title: 'Executive SUV',
-    image: '/images/Executive_SUV.webp',
+    image: 'images/Executive_SUV.webp',
     description:
       'Spacious and sophisticated transportation tailored for corporate groups, airport transfers, families, and business travelers. Enjoy premium comfort, extra luggage capacity, and a smooth ride for every journey.',
     tags: ['Business', 'Transport', 'Convenience']
   },
   {
     title: 'Luxury SUV',
-    image: '/images/Luxury_SUV.webp',
+    image: 'images/Luxury_SUV.webp',
     description:
       'Experience premium travel in our luxury SUVs with spacious seating, modern features, and exceptional comfort. Perfect for executive transportation, airport transfers, VIP guests, and family travel.',
     tags: ['Premium', 'VIP', 'Comfort']
   },
   {
     title: 'Corporate Shuttle',
-    image: '/images/Corporate_Shuttle.webp',
+    image: 'images/Corporate_Shuttle.webp',
     description:
       'Reliable transportation designed for businesses and organizations. Our corporate shuttle service provides safe, efficient, and comfortable travel for employees, executives, meetings, and events.',
     tags: ['Business', 'Employee', 'Reliability']
@@ -61,7 +61,7 @@ export default function Fleet() {
         title="Our Fleet Services"
         heading="Explore Our Fleet Services"
         paragraph="Discover our wide range of fleet services tailored to meet your transportation needs. From personal rides and food delivery to corporate solutions, our vehicles are equipped for every situation. Our team is committed to ensuring a smooth and reliable experience for all users."
-        image="/images/SERVICES-MOBILE-HERO-1.webp"
+        image="images/SERVICES-MOBILE-HERO-1.webp"
         imageAlt="Our fleet services"
       />
 
@@ -74,7 +74,7 @@ export default function Fleet() {
           'Explore our diverse range of vehicles tailored to meet various needs. This section highlights the different types of vehicles available in our fleet, ensuring you find the right fit for your journey.',
           'From compact cars for urban commuting to spacious SUVs for family trips, we provide options that cater to every preference. Our vehicles are well-maintained and equipped to offer a safe and comfortable experience. Trust us to deliver both reliability and convenience tailored to your specific requirements.'
         ]}
-        image="/images/image_hero_section.webp"
+        image="images/image_hero_section.webp"
         imageAlt="Explore our vehicle options"
       />
 

@@ -21,7 +21,7 @@ export default function Customers() {
           </>
           } 
         highlight="Every Customer, Every Ride"
-        image="/images/customer-page-hero-section-1-1.webp"
+        image="images/customer-page-hero-section-1-1.webp"
       />
 
       <PageIntro
@@ -36,7 +36,7 @@ export default function Customers() {
         title="Safe Journeys Start Here"
         heading="Built on Safety, Transparency & Reliability"
         paragraph="Customer trust is at the center of everything we do. Driver verification, transparent pricing, real-time tracking, and secure communication ensure safe, dependable service on every trip."
-        image="/images/Customer-Security.webp"
+        image="images/Customer-Security.webp"
         imageAlt="Safe journeys start here"
       />
 
@@ -53,7 +53,7 @@ export default function Customers() {
         title="Airport Travel Perfected"
         heading="Professional Airport Pickup & Drop Services"
         paragraph="Travel stress-free with BlinkRide's reliable airport pickup and drop-off services. Our professional drivers, premium vehicles, flight tracking, and punctual service ensure every airport journey is smooth, comfortable, and on time."
-        image="/images/Airport-transfer.webp"
+        image="images/Airport-transfer.webp"
         imageAlt="Airport Pickup"
       />
 
