@@ -1,0 +1,94 @@
+.cta-section {
+  background: #000000;
+  padding: 50px 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.cta-card {
+  background: #050505;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.22);
+  padding: 70px 60px;
+  text-align: center;
+}
+
+.cta-card h2 {
+  color: #ffffff;
+  font-size: clamp(36px, 4vw, 64px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 26px;
+}
+
+.cta-card p {
+  max-width: 980px;
+  margin: 0 auto 38px;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 34px;
+  border: 1.5px solid #ffffff;
+  border-radius: 14px;
+  background: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: linear-gradient(180deg, #45e2da, #25c8bf, #169f99);
+  border-color: #25c8bf;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 992px) {
+  .cta-card {
+    padding: 55px 35px;
+  }
+
+  .cta-card p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 60px 16px;
+  }
+
+  .cta-card {
+    padding: 45px 22px;
+    border-radius: 22px;
+  }
+
+  .cta-card h2 {
+    font-size: 40px;
+  }
+
+  .cta-card p {
+    font-size: 15px;
+  }
+
+  .cta-btn {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-card h2 {
+    font-size: 30px;
+  }
+
+  .cta-card p {
+    font-size: 14px;
+  }
+}

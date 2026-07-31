@@ -1,0 +1,30 @@
+.stat-counter {
+  text-align: center;
+  background: var(--color-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-glow);
+  padding: 28px 16px;
+}
+
+.stat-counter__title {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.stat-counter__value {
+  font-family: var(--font-primary);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.stat-counter__label {
+  font-family: var(--font-primary);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 4px;
+}

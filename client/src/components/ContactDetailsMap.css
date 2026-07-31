@@ -1,0 +1,143 @@
+.contact-details {
+  --cdm-accent: #35d9cf;
+  --cdm-accent-dark: #178f88;
+  --cdm-muted: #667085;
+  --cdm-line: #e6ebef;
+  --cdm-danger: #e9365f;
+  --cdm-shadow-lg: 0 20px 55px rgba(15, 23, 42, 0.13);
+
+  background: #ffffff;
+}
+
+.info-map-card {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--cdm-line);
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: var(--cdm-shadow-lg);
+}
+
+.contact-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 34px;
+}
+
+.info-item {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 18px;
+  border: 1px solid var(--cdm-line);
+  border-radius: 18px;
+  background: #ffffff;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.info-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(53, 217, 207, 0.55);
+}
+
+.info-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: rgba(53, 217, 207, 0.12);
+  color: var(--cdm-accent-dark);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.info-copy h3 {
+  margin-bottom: 6px;
+  color: #111111;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.info-copy p {
+  color: var(--cdm-muted);
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.info-link {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--cdm-danger);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.map-wrap {
+  min-height: 540px;
+  background: #eef2f2;
+}
+
+.map-wrap iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 540px;
+  display: block;
+  border: 0;
+}
+
+@media (max-width: 1024px) {
+  .info-map-card {
+    grid-template-columns: 1fr;
+  }
+
+  .info-map-card .map-wrap {
+    order: 1;
+  }
+
+  .info-map-card .contact-details-info {
+    order: 2;
+  }
+
+  .map-wrap,
+  .map-wrap iframe {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 700px) {
+  .info-map-card {
+    border-radius: 22px;
+  }
+
+  .contact-details-info {
+    padding: 32px 22px;
+  }
+
+  .map-wrap,
+  .map-wrap iframe {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 430px) {
+  .info-item {
+    grid-template-columns: 42px 1fr;
+    padding: 16px;
+  }
+
+  .info-icon {
+    width: 42px;
+    height: 42px;
+  }
+}

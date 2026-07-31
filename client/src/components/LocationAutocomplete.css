@@ -1,0 +1,164 @@
+.location-field {
+  position: relative;
+  min-width: 0;
+  z-index: 5;
+}
+
+.location-field.is-open {
+  z-index: 50;
+}
+
+.location-field > i {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  z-index: 3;
+  color: #168f89;
+  font-size: 18px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.location-input.form-control {
+  height: 50px;
+  padding-left: 56px;
+  padding-right: 44px;
+  border: 1px solid #858585;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.96);
+  font-size: 15px;
+  color: #222222;
+}
+
+.location-input.form-control::placeholder {
+  color: #7a7a7a;
+}
+
+.location-loading {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: none;
+  width: 17px;
+  height: 17px;
+  border: 2px solid rgba(22, 143, 137, 0.25);
+  border-top-color: #168f89;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  animation: location-spin 0.7s linear infinite;
+}
+
+.location-field.is-loading .location-loading {
+  display: block;
+}
+
+@keyframes location-spin {
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.location-suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: none;
+  max-height: 270px;
+  overflow-y: auto;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.17), 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.location-suggestions.show {
+  display: block;
+}
+
+.location-option {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 58px;
+  padding: 9px 12px;
+  border: 0;
+  border-bottom: 1px solid #eeeeee;
+  background: #ffffff;
+  color: #171717;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.18s ease, padding-left 0.18s ease;
+}
+
+.location-option:last-of-type {
+  border-bottom: none;
+}
+
+.location-option:hover,
+.location-option.active {
+  padding-left: 16px;
+  background: #e9fbfa;
+}
+
+.location-option-icon {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 9px;
+  background: rgba(22, 170, 162, 0.12);
+  color: #0e958f;
+  font-size: 15px;
+}
+
+.location-option-text {
+  min-width: 0;
+}
+
+.location-option-title {
+  display: block;
+  overflow: hidden;
+  color: #171717;
+  font-size: 13px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.location-option-address {
+  display: block;
+  overflow: hidden;
+  margin-top: 2px;
+  color: #686868;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.location-message {
+  padding: 14px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.location-attribution {
+  padding: 7px 12px;
+  border-top: 1px solid #eeeeee;
+  background: #fafafa;
+  color: #777777;
+  font-size: 10px;
+  text-align: right;
+}
+
+@media screen and (max-width: 420px) {
+  .location-input {
+    padding-left: 40px;
+  }
+}

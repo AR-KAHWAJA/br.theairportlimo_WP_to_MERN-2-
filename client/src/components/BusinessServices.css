@@ -1,0 +1,129 @@
+.business-services {
+  width: 100%;
+  padding: 50px 60px;
+  color: #111111;
+}
+
+.business-services__container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.business-services__container .pill-badge {
+  margin-bottom: 20px;
+}
+
+.business-services__title {
+  max-width: 760px;
+  margin: 0 auto 20px;
+  font-size: clamp(34px, 4vw, 50px);
+  font-weight: 750;
+  line-height: 1.05;
+  text-align: center;
+}
+
+.business-services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.business-card {
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.business-card__image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.business-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.business-card__content {
+  padding: 26px 22px 28px;
+  text-align: center;
+}
+
+.business-card__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.business-card__text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+@media (max-width: 1024px) {
+  .business-services {
+    padding: 50px 24px;
+  }
+
+  .business-services__container {
+    padding: 0 16px;
+  }
+
+  .business-services__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .business-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 580px;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .business-services {
+    padding: 40px 16px;
+  }
+
+  .business-services__container {
+    padding: 0 8px;
+  }
+
+  .business-services__title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .business-services__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .business-card:last-child {
+    max-width: 100%;
+    grid-column: auto;
+  }
+
+  .business-card__title {
+    font-size: 24px;
+  }
+
+  .business-card__text {
+    font-size: 14px;
+  }
+}

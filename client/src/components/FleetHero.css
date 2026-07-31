@@ -1,0 +1,246 @@
+.fleet-hero {
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
+  color: #ffffff;
+  background: url('/images/fleet_hero_iamge.webp') center center / cover no-repeat;
+}
+
+.fleet-shell {
+  position: relative;
+  width: min(1280px, calc(100% - 40px));
+  min-height: 100svh;
+  margin: 0 auto;
+}
+
+.hero-copy {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  z-index: 3;
+  width: min(590px, calc(100% - 40px));
+  transform: translateY(-62%);
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: clamp(54px, 6vw, 88px);
+  line-height: 0.98;
+  font-weight: 900;
+  letter-spacing: -2.5px;
+  text-shadow: 0 5px 18px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.hero-highlight {
+  display: inline-flex;
+  margin-top: 24px;
+  padding: 8px 18px 10px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #45e2da, #25c8bf, #169f99);
+  color: #ffffff;
+  font-size: clamp(32px, 4vw, 54px);
+  line-height: 1.05;
+  font-weight: 800;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+.stats-grid {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 34px;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.stat-card {
+  min-height: 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 19px;
+  background: rgba(5, 5, 5, 0.34);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.34);
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(37, 200, 191, 0.8);
+  background: rgba(0, 0, 0, 0.52);
+}
+
+.stat-card .stat-counter {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.stat-card .stat-counter__value {
+  font-size: clamp(30px, 3vw, 46px);
+  line-height: 1;
+  font-weight: 800;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.stat-card .stat-counter__label {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .fleet-hero,
+  .fleet-shell {
+    min-height: 760px;
+  }
+
+  .fleet-hero {
+    background-position: center center;
+  }
+
+  .hero-copy {
+    top: 47%;
+    transform: translateY(-58%);
+    width: min(510px, calc(100% - 40px));
+  }
+
+  .hero-title {
+    font-size: 56px;
+  }
+
+  .hero-highlight {
+    font-size: 36px;
+  }
+
+  .stats-grid {
+    bottom: 24px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .stat-card {
+    min-height: 94px;
+  }
+
+  .stat-card .stat-counter__label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 760px) {
+  .fleet-hero,
+  .fleet-shell {
+    min-height: 830px;
+  }
+
+  .fleet-hero {
+    background-position: 58% center;
+  }
+
+  .fleet-shell {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .hero-copy {
+    top: 18%;
+    left: 16px;
+    width: calc(100% - 32px);
+    transform: none;
+  }
+
+  .hero-title {
+    font-size: 34px;
+    line-height: 1.05;
+    letter-spacing: -1px;
+  }
+
+  .hero-highlight {
+    margin-top: 16px;
+    padding: 7px 14px 8px;
+    font-size: 25px;
+  }
+
+  .stats-grid {
+    top: 43%;
+    bottom: auto;
+    left: 16px;
+    right: 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .stat-card {
+    min-height: 120px;
+    align-items: flex-start;
+    padding: 18px 14px;
+    text-align: left;
+  }
+
+  .stat-card .stat-counter {
+    text-align: left;
+  }
+
+  .stat-card .stat-counter__value {
+    font-size: 32px;
+  }
+
+  .stat-card .stat-counter__label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .fleet-hero,
+  .fleet-shell {
+    min-height: 790px;
+  }
+
+  .fleet-shell {
+    padding: 0 14px;
+  }
+
+  .hero-copy {
+    top: 16%;
+    left: 14px;
+    width: calc(100% - 28px);
+  }
+
+  .hero-title {
+    font-size: 29px;
+  }
+
+  .hero-highlight {
+    font-size: 22px;
+  }
+
+  .stats-grid {
+    top: 39%;
+    left: 14px;
+    right: 14px;
+    gap: 10px;
+  }
+
+  .stat-card {
+    min-height: 112px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stat-card {
+    transition: none;
+  }
+}

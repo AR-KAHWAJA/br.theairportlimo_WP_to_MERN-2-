@@ -1,0 +1,176 @@
+.global-section {
+  width: 100%;
+  padding: 50px 60px;
+  background: #ffffff;
+}
+
+.global-container {
+  width: min(1280px, 100%);
+  margin: 0 auto;
+}
+
+.bottom-divider {
+  width: min(665px, 58%);
+  height: 1px;
+  margin: 0 auto;
+  border: 0;
+  background: #e5d9d4;
+}
+
+.global-header {
+  max-width: 1180px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.global-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  margin-bottom: 34px;
+  border-radius: 999px;
+  background: #f1f1f1;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.global-title {
+  margin-bottom: 20px;
+  font-size: clamp(38px, 4vw, 58px);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -1px;
+}
+
+.global-text {
+  max-width: 1160px;
+  margin: 0 auto;
+  color: #242424;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.global-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 34px;
+}
+
+.gallery-card {
+  overflow: hidden;
+  height: 205px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.04);
+}
+
+.bottom-divider {
+  margin-top: 80px;
+}
+
+@media (max-width: 1050px) {
+  .global-section {
+    padding: 70px 24px 28px;
+  }
+
+  .global-header {
+    margin-top: 0;
+  }
+
+  .global-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+
+  .gallery-card {
+    height: 260px;
+  }
+}
+
+@media (max-width: 680px) {
+  .global-section {
+    padding: 52px 16px 24px;
+  }
+
+  .global-header {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .global-badge {
+    min-height: 40px;
+    margin-bottom: 24px;
+    padding: 9px 17px;
+    font-size: 14px;
+  }
+
+  .global-title {
+    font-size: 34px;
+  }
+
+  .global-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .global-gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 28px;
+  }
+
+  .gallery-card {
+    height: 250px;
+    border-radius: 16px;
+  }
+
+  .bottom-divider {
+    width: 84%;
+  }
+
+  .bottom-divider {
+    margin-top: 54px;
+  }
+}
+
+@media (max-width: 380px) {
+  .global-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .global-title {
+    font-size: 29px;
+  }
+
+  .global-text {
+    font-size: 13px;
+  }
+
+  .gallery-card {
+    height: 215px;
+  }
+}
